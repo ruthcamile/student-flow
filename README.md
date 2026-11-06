@@ -1,2 +1,0 @@
-# student-flow
-Atividade Acadêmica
