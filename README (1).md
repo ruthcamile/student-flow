@@ -31,10 +31,10 @@ Pensa numa mistura de **pastinhas** (uma pra cada matéria, projeto ou fase da v
 
 ## 1. Termo de abertura
 
-### 📌 Título
+###  Título
 **Student Flow**: organizador acadêmico com pastas, tags e alertas inteligentes.
 
-### 🔥 Problema real
+### Problema real
 Estudante de graduação lida com várias matérias, trabalhos em grupo, provas, estágio e projetos pessoais ao mesmo tempo. Na prática:
 
 - as tarefas ficam espalhadas entre grupo de WhatsApp, Teams, caderno e print de tela;
@@ -42,14 +42,14 @@ Estudante de graduação lida com várias matérias, trabalhos em grupo, provas,
 - os apps existentes ou são genéricos demais (não entendem o conceito de "matéria") ou só avisam por e-mail, que passa batido;
 - priorizar vira chute, porque nada mostra o que está mais perto de estourar.
 
-### 💎 Proposta de valor
+### Proposta de valor
 - **Pastas aninhadas**: crie uma pasta por matéria, e subpastas pra provas, trabalhos, leituras, o que fizer sentido.
 - **Tags livres e coloridas** que cruzam as pastas (`#prova`, `#grupo`, `#urgente`, `#estágio`).
 - **Alertas em camadas**: notificação no navegador, aviso dentro do app e e-mail como reforço, com antecedência configurável por tarefa.
 - **Dois jeitos de ver a mesma coisa**: lista e quadro kanban, sem duplicar dado.
 - **Prioridade que pesa**: o app destaca o que está perto do prazo e ainda não foi começado.
 
-### 🎯 Escopo
+### Escopo
 
 | ✅ Dentro do escopo (v1.0) | ❌ Fora do escopo (por enquanto) |
 |---|---|
@@ -94,7 +94,7 @@ Estudante de graduação lida com várias matérias, trabalhos em grupo, provas,
 | **RF08** | O sistema deve enviar os alertas por push no navegador, registrá-los numa central de notificações dentro do app e, opcionalmente, por e-mail. |
 | **RF09** | O sistema deve destacar visualmente tarefas atrasadas e tarefas de prioridade alta com prazo próximo. |
 
-### 🛡️ Não funcionais
+### Não funcionais
 
 | ID | Descrição |
 |---|---|
@@ -109,7 +109,7 @@ Estudante de graduação lida com várias matérias, trabalhos em grupo, provas,
 
 ## 4. Caso de uso principal e tratamento de erros
 
-### 🎬 Criar uma tarefa com alerta
+### Criar uma tarefa com alerta
 
 **Ator:** estudante autenticado
 
@@ -119,7 +119,7 @@ Estudante de graduação lida com várias matérias, trabalhos em grupo, provas,
 
 Quando chega a hora de um alerta, o sistema envia o push no navegador, adiciona o aviso na central de notificações e, se o usuário tiver ativado, manda o e-mail.
 
-### ⚠️ Fluxos de exceção
+### Fluxos de exceção
 
 | Situação | Comportamento do sistema |
 |---|---|
@@ -180,7 +180,7 @@ O Student Flow v1.0 está pronto quando:
 
 ```bash
 # clonar o repositório
-git clone https://github.com/seu-usuario/student-flow.git
+git clone https://github.com/ruthcamile/student-flow.git
 cd student-flow
 
 # backend
